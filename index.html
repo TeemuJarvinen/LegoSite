@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>LegoSite</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a id="active" class="test navbar-brand" href="index.html">LegoSite</a>
+        <button
+          id="hamburger"
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="navbar-padding collapse navbar-collapse"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a id="navLink-color" class="nav-link" href="ideas.html">Ideas</a>
+            </li>
+            <li class="nav-item">
+              <a id="navLink-color" class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a id="navLink-color" class="nav-link" href="products.html"
+                >Products</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero container-fluid">
+      <div class="hero-text col-md-6">
+        <h1 class="display-4 font-italic">Welcome to the LegoSite</h1>
+        <p class="lead my-3">
+          Here you can share you creative ideas with the community, read the
+          latest blogposts and buy cool lego products.
+        </p>
+        <p class="lead mb-0">
+          <a href="ideas.html" id="checkOut" class="font-weight-bold"
+            >Check out community ideas.</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <div class="news container-fluid">
+      <div class="news-cards container-fluid d-flex justify-content-around">
+        <div class="card" style="width: 25rem">
+          <a href="blog.html">
+            <img
+              src="https://images.unsplash.com/photo-1472457897821-70d3819a0e24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80"
+              class="card-img-top"
+              alt="..."
+            />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Totally awesome blog post!</h5>
+            <p class="card-text">
+              Why Legos are awesome and why you should start your own lego
+              collection.
+            </p>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </div>
+        </div>
+        <div class="card" style="width: 25rem">
+          <a href="blog.html">
+            <img
+              src="https://images.unsplash.com/photo-1505322033502-1f4385692e6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGxlZ298ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+              class="card-img-top"
+              alt="..."
+            />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Another awesome blog post!</h5>
+            <p class="card-text">Awesome Lego building ideas for beginners.</p>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </div>
+        </div>
+        <div class="card" style="width: 25rem">
+          <a href="blog.html">
+            <img
+              src="https://images.unsplash.com/photo-1498747324273-943f73ca00b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGxlZ298ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+              class="card-img-top"
+              alt="..."
+            />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Different kinds of Legos</h5>
+            <p class="card-text">
+              Do you what kind of Legos are there? This post tells you about 10
+              most common Lego types.
+            </p>
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="highlight container-fluid">
+      <div class="testing col-md-11 justify-content-center">
+        <div class="card flex-md-row mb-4 shadow-sm h-md-250">
+          <div class="card-body d-flex flex-column align-items-start">
+            <h3 class="mb-0">
+              <a class="text-dark" href="#">New Lego party sets are out</a>
+            </h3>
+            <div class="mb-1 text-muted">Nov 11</div>
+            <p class="card-text mb-4 mt-3">
+              Organize a party with new lego party characters! One of the lego
+              party sets includes two figures, two balloons, two donuts and a
+              partybox. These special lego party sets are out only for a limited
+              amout of time so act fast! Overall there are 20 new lego party
+              sets which we go through in this post.
+            </p>
+            <a class="mt-1" href="#">Continue reading</a>
+          </div>
+          <img
+            class="card-img-right flex-auto d-none d-xl-block"
+            data-src="holder.js/200x250?theme=thumb"
+            alt="Thumbnail [200x250]"
+            style="width: 200px; height: 250px"
+            src="https://images.unsplash.com/photo-1526505262320-81542978f63b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+            data-holder-rendered="true"
+          />
+        </div>
+      </div>
+    </div>
+
+    <footer class="container py-5">
+      <div class="row">
+        <div class="footer-image col-12 col-md">
+          <img
+            src="https://images.unsplash.com/photo-1531061682486-1fa5a7390f74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1467&q=80"
+            alt="..."
+            class="img-thumbnail"
+          />
+        </div>
+        <div class="col-6 col-md">
+          <h5>Contact</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">loremipsum@email.com</a></li>
+            <li><a class="text-muted" href="#">+358 111 0000</a></li>
+            <li>
+              <a class="text-muted" href="#"
+                >Esimerkinkatu 15, 00099 Helsinki</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Navigation</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="index.html">Homepage</a></li>
+            <li><a class="text-muted" href="ideas.html">Ideas</a></li>
+            <li><a class="text-muted" href="blog.html">Blog</a></li>
+            <li><a class="text-muted" href="products.html">Products</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Socials</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Instagram</a></li>
+            <li><a class="text-muted" href="#">Twitter</a></li>
+            <li><a class="text-muted" href="#">Facebook</a></li>
+            <li><a class="text-muted" href="#">Linkedin</a></li>
+          </ul>
+        </div>
+
+        <!-- <div class="col-6 col-md">
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter email"
+              aria-label="Recipient's username"
+              aria-describedby="button-addon2"
+            />
+            <button
+              class="btn btn-success border-rad"
+              type="button"
+              id="button-addon2"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div> -->
+      </div>
+
+      <div class="iframeContainer">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d84692.61741819988!2d24.932485520587548!3d60.20153743474062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfi!2sfi!4v1645359949585!5m2!1sfi!2sfi"
+          width="500"
+          height="100"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
